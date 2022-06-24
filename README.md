@@ -107,7 +107,8 @@ model = AutoModelForMaskedLM.from_pretrained("klue/bert-base")
      2) padded MLM (선정)
      3) segment id까지 변화시켜 본 padded MLM
   
-  
+<br>
+
 - Tokenizer & DataLoader 과정
 
 <img width="1260" alt="스크린샷 2022-06-24 오후 6 51 55" src="https://user-images.githubusercontent.com/70500841/175520783-8a71f66f-247b-477e-9ee0-cdb141acdfd3.png">
