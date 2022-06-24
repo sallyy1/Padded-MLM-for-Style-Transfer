@@ -150,6 +150,12 @@ model = AutoModelForMaskedLM.from_pretrained("klue/bert-base")
 
 <br>
 
+## 기타
+- 데이터 (https://drive.google.com/drive/folders/1kRcK4HWOvam_vTgK6GJVFvvNP9qtE4xP)
+- 학습 모델 (https://drive.google.com/drive/folders/1ugYUawUoN_XpNEsxztn8o3jAmubO8juU)
+
+
+<br>
 
 ## Reference
 - 마스크 언어 모델 기반 비병렬 한국어 텍스트 스타일 변환 (2021, NCSOFT NLP Center Language AI Lab)
