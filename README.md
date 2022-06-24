@@ -133,6 +133,7 @@ model = AutoModelForMaskedLM.from_pretrained("klue/bert-base")
 
 : Tokenizer 함수 사용 (convert_ids_to_tokens 함수 → [MASK] 토큰으로 교체 → decode 함수)
 
+<br>
 
 #### 2. [MASK] 예측
 
