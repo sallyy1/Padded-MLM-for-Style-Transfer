@@ -99,23 +99,27 @@ model = AutoModelForMaskedLM.from_pretrained("klue/bert-base")
 <br>
 
 #### 2. 모델 훈련 방식
-: 3가지 대안으로 실험해봄
-  1) 기본 MLM
-  2) padded MLM (선정)
-  3) segment id까지 변화시켜 본 padded MLM
+- 임베딩 변경
+
+  : 3가지 대안으로 실험해봄
+
+     1) 기본 MLM
+     2) padded MLM (선정)
+     3) segment id까지 변화시켜 본 padded MLM
   
   
 - Tokenizer & DataLoader 과정
-![스크린샷_2022-06-24_오후_6.51.55](/uploads/091e636b7fa991a56a3b16b181a7ccfc/스크린샷_2022-06-24_오후_6.51.55.png) 
+
+<img width="1260" alt="스크린샷 2022-06-24 오후 6 51 55" src="https://user-images.githubusercontent.com/70500841/175520783-8a71f66f-247b-477e-9ee0-cdb141acdfd3.png">
 
 
 
 <br>
 
 #### 3. 학습된 모델 결과물
-- 1. 문어체 → 구어체 변환 : model/ 의 `padded_MLM_train_ban_4_epoch` 파일
+- 1 . 문어체 → 구어체 변환 : model/ 의 `padded_MLM_train_ban_4_epoch` 파일
 
-- 2. 구어체 → 문어체 변환 : model/ 의 `padded_MLM_train_mun_4_epoch` 파일
+- 2 . 구어체 → 문어체 변환 : model/ 의 `padded_MLM_train_mun_4_epoch` 파일
 
 
 
