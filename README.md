@@ -9,10 +9,11 @@ Target 문체의 데이터셋으로 학습시킨 모델(MLM)로 Source 문체의
 
 
 #### 1. 문어체 → 구어체 변환
-![스크린샷_2022-06-24_오후_7.06.32](/uploads/eed766cf96c8bf2dfd4727c82af2bba6/스크린샷_2022-06-24_오후_7.06.32.png)
+<img width="1259" alt="스크린샷 2022-06-24 오후 7 06 40" src="https://user-images.githubusercontent.com/70500841/175520078-a7717b8e-ca79-4931-bb60-025df7ee70f3.png">
 
 #### 2. 구어체 → 문어체 변환
-![스크린샷_2022-06-24_오후_7.06.40](/uploads/66c7f38cdb3e41f70a0d4517d32bdd3a/스크린샷_2022-06-24_오후_7.06.40.png)
+<img width="1259" alt="스크린샷 2022-06-24 오후 7 06 32" src="https://user-images.githubusercontent.com/70500841/175520146-b5e711f7-22da-46e3-a5ed-ebb3354d11c4.png">
+
 
 <br>
 
@@ -61,13 +62,15 @@ $ python setup.py install
 
 : Source Dataset(Json)에서 'question' 추출할 때 **3가지** 어체로 "**문체 분리**" 적용함
 
-![스크린샷_2022-06-24_오후_7.10.30](/uploads/bae4d328bf40e659e125ce93d2054bd0/스크린샷_2022-06-24_오후_7.10.30.png)
+<img width="1252" alt="스크린샷 2022-06-24 오후 7 10 30" src="https://user-images.githubusercontent.com/70500841/175520198-93466759-fc40-492b-893d-9327412688c8.png">
+
 
 이 중 `1. 문어체` 와 `3. 반말체` 데이터셋을 사용
 
 - 선정 Source Dataset
 
-![스크린샷_2022-06-24_오후_7.18.23](/uploads/41cc00b46ce2369b4dbe24d063e853ee/스크린샷_2022-06-24_오후_7.18.23.png)
+<img width="1261" alt="스크린샷 2022-06-24 오후 7 18 23" src="https://user-images.githubusercontent.com/70500841/175520223-6bad4847-b1ba-443a-a95e-ed5338fcfbf3.png">
+
 
 <br>
 
