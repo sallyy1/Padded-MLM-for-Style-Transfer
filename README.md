@@ -64,8 +64,11 @@ $ python setup.py install
 
 <img width="1252" alt="스크린샷 2022-06-24 오후 7 10 30" src="https://user-images.githubusercontent.com/70500841/175520198-93466759-fc40-492b-893d-9327412688c8.png">
 
-
 이 중 `1. 문어체` 와 `3. 반말체` 데이터셋을 사용
+
+
+<img width="400" alt="스크린샷 2022-08-10 오후 8 21 10" src="https://user-images.githubusercontent.com/70500841/183892520-6e3c3f5a-27a9-448f-a8f1-a39c789f52f5.png"><img width="400" alt="스크린샷 2022-08-10 오후 8 21 36" src="https://user-images.githubusercontent.com/70500841/183892584-b7925ce5-e107-4774-8dc1-6c1328f1495d.png">
+
 
 - 선정 Source Dataset
 
