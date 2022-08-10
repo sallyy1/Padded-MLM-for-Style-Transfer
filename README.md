@@ -109,8 +109,8 @@ model = AutoModelForMaskedLM.from_pretrained("klue/bert-base")
   : 3가지 대안으로 실험해봄
 
      1) 기본 MLM
-     2) padded MLM
-     3) segment id까지 변화시켜 본 padded MLM (선정)
+     2) padded MLM (선정)
+     3) segment id까지 변화시켜 본 padded MLM
   
 <br>
 
