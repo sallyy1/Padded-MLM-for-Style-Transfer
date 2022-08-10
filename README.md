@@ -78,7 +78,9 @@ $ python setup.py install
 
 
 : 데이터 전처리(정제) 후, 전체 코퍼스 파일(`total corpus.tsv`)과 이를 8 : 1 : 1 비율로 split한 `train.tsv` , `dev.tsv` , `test.tsv` 파일로 저장하는 코드
-
+- 사용한 데이터
+     1) 해당 모델(Padded MLM) 학습 및 실험에는 `total corpus.tsv` 파일 활용 (파일명은 `train_sample.tsv`로 변경)
+     2) 다른 모델(Conditional BERT) 학습 및 실험에는 `train.tsv` , `dev.tsv` , `test.tsv` 파일 활용
 
 
 <br>
