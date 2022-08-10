@@ -11,8 +11,8 @@ tokenizer = AutoTokenizer.from_pretrained("klue/bert-base")#, use_fast=False)
 
 
 
-#weights_path = "model/segment_padded_MLM_train_mun_4_epoch"
-weights_path = "model/segment_padded_MLM_train_ban_4_epoch"
+#weights_path = "model/padded_MLM_train_mun_4_epoch" # "model/segment_padded_MLM_train_mun_4_epoch"
+weights_path = "model/padded_MLM_train_ban_4_epoch" # "model/segment_padded_MLM_train_ban_4_epoch"
 model = torch.load(weights_path)
 
 ###print(model)
